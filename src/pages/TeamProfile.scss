@@ -1,0 +1,27 @@
+.team-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 100vw;
+
+  .team-pic {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 35vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .team-title {
+    margin-top: 35vw;
+    font-size: 30px;
+  }
+
+  .team-form {
+    margin-top: 35vw;
+  }
+}

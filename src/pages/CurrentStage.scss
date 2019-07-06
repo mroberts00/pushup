@@ -1,0 +1,18 @@
+.stage {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+
+  h1,h2,h3 {
+    margin: 7px 0;
+  }
+  .stage-header {
+    font-family: 'Raleway', sans-serif;
+  
+  }
+  
+}
+

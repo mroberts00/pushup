@@ -1,0 +1,66 @@
+.data-table {
+  margin-top: 20px;
+  min-height: 25vh;
+  width: 100%;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  font-size: 20px;
+
+  .table-tabs {
+    margin-bottom: 1px;
+  }
+
+  .table-header {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    border-bottom: 1px solid lightgrey;
+    border-top: 1px solid lightgrey;
+    color: #01002a;
+    
+  }
+
+  .table-data {
+    color: #555555;
+
+    .table-row {
+      display: flex;
+      align-items: center;
+      height: 50px;
+      width: 100%;
+      border-bottom: 1px dotted lightgrey;
+
+      .team-pic-holder {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        img {
+          height: 40px;
+          border-radius: 50%;
+        }
+      }
+
+      .profile-pic-holder {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+
+        .profile-pic {
+          height: 40px;
+          width: 40px;
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+          border-radius: 50%;
+        }
+      }
+    }
+  }
+}
